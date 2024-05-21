@@ -12,4 +12,6 @@ Pod::Spec.new do |spec|
     spec.platform     = :ios, '17.0'
     spec.source_files  = 'Sources/**/*.swift'
     spec.swift_version = '5.9'
+    spec.dependency 'swift-syntax', '509.0.0'
+    spec.swift_package 'https://github.com/apple/swift-syntax', '509.0.0'
 end
